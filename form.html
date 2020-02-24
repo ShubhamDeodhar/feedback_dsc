@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="head">
+        <h1>Annual Survey <sub><h4>By SRM Hostels(boys)</h4></sub></h1>
+    </div>
+    <div class="form_body">
+        <form>
+        <p> <b>Some Personal Details.</b> <sub>*Required</sub></p><br/>
+        <label>1.Registration number:</label><br/><br/>
+        <input type="text"  name="reg" placeholder="Registration Number" required/><br/><br/><br/><br/>
+        <label>2.Select your year</label><br/><br/>
+        <select name="Year"  required>
+            <option value="1st"> 1st</option>
+            <option value="2nd"> 2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+        </select><br/><br/><br/><br/>
+        <label>3. Current Hostel</label><br/><br/>
+        <select name="Hostel" required >
+            <option value="Paari">Paari</option>
+            <option value="Kaari">Kaari</option>
+            <option value="Oori">Oori</option>
+            <option value="Adhyaman">Adhyaman</option>
+            <option value="Nelson Mandela">Nelson Mandela</option>
+            <option value="Agasthiyar">Agasthiyar</option>
+            <option value="Manoranjitham">Manoranjitham</option>
+            <option value="Sannasi A">Sannasi A</option>
+            <option value="Sannasi C">Sannai C</option>
+        </select><br/><br/><br/><br/>
+        <hr/><br/><br/>
+
+        <p><b>Experience:</b><sub>*Required</sub></p><br/>
+        <label>1.Room Number</label><br/><br/>
+        <input type="text" name ="room" placeholder="Room Number"required><br/><br/><br/><br/>
+        <label>2.Room Quality</label><br/><br/>
+        <select class="one"name="Rating1" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <label>3. Cleanliness</label><br/><br/>
+        <select  class="one" name="Rating2" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <label>4. Elevator Capacity</label><br/><br/>
+        <select  class="one" name="Rating3" required><br/><br/>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <label>5.TV room Service</label><br/><br/>
+        <select  class="one" name="Rating4" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <label>6.Ventilation in room</label><br/><br/>
+        <select  class="one" name="Rating5" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <label>7.WiFi Quality</label><br/><br/>
+        <select  class="one"name="Rating5" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+            <option value="Worst">Worst</option>
+        </select><br/><br/><br/><br/>
+        <hr/>
+        <label>Overall Rating</label><br/><br/>
+       <p>Rating Ranges Between 0 to 10</p>
+        <input type="range" name="range" min='0' max='10'/><br/>
+        <b class="r">0</b>
+        <b class="t">5</b>
+        <b class="t">10</b>
+        <br/><br/><br/><br/>
+       
+        <hr/>
+        <br/><br/>
+        <input type="submit" id="btn" name="btn" value="Submit">
+        <br/><br/><br/>
+
+    </form> 
+    </div>
+</body>
+</html>
